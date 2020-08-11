@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A097C27225F9F37001B336F /* CollectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A097C26225F9F37001B336F /* CollectionsViewController.swift */; };
+		4A097C2B225FD6F1001B336F /* GlyphOutlineViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A097C2A225FD6F1001B336F /* GlyphOutlineViewCell.swift */; };
+		4A097C2D225FD6FE001B336F /* GlyphOutlineViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A097C2C225FD6FE001B336F /* GlyphOutlineViewCell.xib */; };
+		4A097C2F225FDC51001B336F /* BrandDecodeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A097C2E225FDC51001B336F /* BrandDecodeable.swift */; };
+		4A097C34225FDCAA001B336F /* CollectionDecodeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A097C33225FDCAA001B336F /* CollectionDecodeable.swift */; };
+		4A097C36225FDD02001B336F /* SeasonDecodeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A097C35225FDD02001B336F /* SeasonDecodeable.swift */; };
+		4A097C38225FDD3C001B336F /* RunwayAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A097C37225FDD3C001B336F /* RunwayAPI.swift */; };
+		4A097C3A225FDDEB001B336F /* RunwayString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A097C39225FDDEB001B336F /* RunwayString.swift */; };
+		4A097C3C225FF49E001B336F /* RequestsDecodeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A097C3B225FF49E001B336F /* RequestsDecodeable.swift */; };
+		4AAD2EF8225F9A8E00E486E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAD2EF7225F9A8E00E486E7 /* AppDelegate.swift */; };
+		4AAD2EFD225F9A8E00E486E7 /* Vogue_Runway.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4AAD2EFB225F9A8E00E486E7 /* Vogue_Runway.xcdatamodeld */; };
+		4AAD2EFF225F9A9000E486E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AAD2EFE225F9A9000E486E7 /* Assets.xcassets */; };
+		4AAD2F02225F9A9000E486E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AAD2F00225F9A9000E486E7 /* Main.storyboard */; };
+		4ADF429324E2FA8400BFDC2D /* API.md in Resources */ = {isa = PBXBuildFile; fileRef = 4ADF429124E2FA8300BFDC2D /* API.md */; };
+		4ADF429424E2FA8400BFDC2D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4ADF429224E2FA8300BFDC2D /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A097C26225F9F37001B336F /* CollectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsViewController.swift; sourceTree = "<group>"; };
+		4A097C2A225FD6F1001B336F /* GlyphOutlineViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlyphOutlineViewCell.swift; sourceTree = "<group>"; };
+		4A097C2C225FD6FE001B336F /* GlyphOutlineViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GlyphOutlineViewCell.xib; sourceTree = "<group>"; };
+		4A097C2E225FDC51001B336F /* BrandDecodeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandDecodeable.swift; sourceTree = "<group>"; };
+		4A097C33225FDCAA001B336F /* CollectionDecodeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDecodeable.swift; sourceTree = "<group>"; };
+		4A097C35225FDD02001B336F /* SeasonDecodeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonDecodeable.swift; sourceTree = "<group>"; };
+		4A097C37225FDD3C001B336F /* RunwayAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunwayAPI.swift; sourceTree = "<group>"; };
+		4A097C39225FDDEB001B336F /* RunwayString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunwayString.swift; sourceTree = "<group>"; };
+		4A097C3B225FF49E001B336F /* RequestsDecodeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsDecodeable.swift; sourceTree = "<group>"; };
+		4AAD2EF4225F9A8E00E486E7 /* Vogue Runway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vogue Runway.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAD2EF7225F9A8E00E486E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AAD2EFC225F9A8E00E486E7 /* Vogue_Runway.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vogue_Runway.xcdatamodel; sourceTree = "<group>"; };
+		4AAD2EFE225F9A9000E486E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AAD2F01225F9A9000E486E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AAD2F03225F9A9000E486E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AAD2F04225F9A9000E486E7 /* Vogue_Runway.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Vogue_Runway.entitlements; sourceTree = "<group>"; };
+		4ADF429124E2FA8300BFDC2D /* API.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = API.md; sourceTree = "<group>"; };
+		4ADF429224E2FA8300BFDC2D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AAD2EF1225F9A8E00E486E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A097C30225FDC57001B336F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4A097C31225FDC5F001B336F /* Structs */,
+				4A097C37225FDD3C001B336F /* RunwayAPI.swift */,
+				4A097C39225FDDEB001B336F /* RunwayString.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		4A097C31225FDC5F001B336F /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				4A097C2E225FDC51001B336F /* BrandDecodeable.swift */,
+				4A097C33225FDCAA001B336F /* CollectionDecodeable.swift */,
+				4A097C35225FDD02001B336F /* SeasonDecodeable.swift */,
+				4A097C3B225FF49E001B336F /* RequestsDecodeable.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		4AAD2EEB225F9A8E00E486E7 = {
+			isa = PBXGroup;
+			children = (
+				4ADF429224E2FA8300BFDC2D /* README.md */,
+				4ADF429124E2FA8300BFDC2D /* API.md */,
+				4AAD2EF6225F9A8E00E486E7 /* Vogue Runway */,
+				4AAD2EF5225F9A8E00E486E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AAD2EF5225F9A8E00E486E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AAD2EF4225F9A8E00E486E7 /* Vogue Runway.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AAD2EF6225F9A8E00E486E7 /* Vogue Runway */ = {
+			isa = PBXGroup;
+			children = (
+				4AAD2EF7225F9A8E00E486E7 /* AppDelegate.swift */,
+				4AAD2EFE225F9A9000E486E7 /* Assets.xcassets */,
+				4AAD2F00225F9A9000E486E7 /* Main.storyboard */,
+				4AAD2F03225F9A9000E486E7 /* Info.plist */,
+				4AAD2F04225F9A9000E486E7 /* Vogue_Runway.entitlements */,
+				4AAD2EFB225F9A8E00E486E7 /* Vogue_Runway.xcdatamodeld */,
+				4A097C26225F9F37001B336F /* CollectionsViewController.swift */,
+				4A097C2A225FD6F1001B336F /* GlyphOutlineViewCell.swift */,
+				4A097C2C225FD6FE001B336F /* GlyphOutlineViewCell.xib */,
+				4A097C30225FDC57001B336F /* API */,
+			);
+			path = "Vogue Runway";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AAD2EF3225F9A8E00E486E7 /* Vogue Runway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AAD2F07225F9A9000E486E7 /* Build configuration list for PBXNativeTarget "Vogue Runway" */;
+			buildPhases = (
+				4AAD2EF0225F9A8E00E486E7 /* Sources */,
+				4AAD2EF1225F9A8E00E486E7 /* Frameworks */,
+				4AAD2EF2225F9A8E00E486E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vogue Runway";
+			productName = "Vogue Runway";
+			productReference = 4AAD2EF4225F9A8E00E486E7 /* Vogue Runway.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AAD2EEC225F9A8E00E486E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Harry Stanton";
+				TargetAttributes = {
+					4AAD2EF3225F9A8E00E486E7 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 4AAD2EEF225F9A8E00E486E7 /* Build configuration list for PBXProject "Vogue Runway" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AAD2EEB225F9A8E00E486E7;
+			productRefGroup = 4AAD2EF5225F9A8E00E486E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AAD2EF3225F9A8E00E486E7 /* Vogue Runway */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AAD2EF2225F9A8E00E486E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AAD2EFF225F9A9000E486E7 /* Assets.xcassets in Resources */,
+				4A097C2D225FD6FE001B336F /* GlyphOutlineViewCell.xib in Resources */,
+				4ADF429424E2FA8400BFDC2D /* README.md in Resources */,
+				4AAD2F02225F9A9000E486E7 /* Main.storyboard in Resources */,
+				4ADF429324E2FA8400BFDC2D /* API.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AAD2EF0225F9A8E00E486E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A097C2B225FD6F1001B336F /* GlyphOutlineViewCell.swift in Sources */,
+				4A097C34225FDCAA001B336F /* CollectionDecodeable.swift in Sources */,
+				4A097C38225FDD3C001B336F /* RunwayAPI.swift in Sources */,
+				4A097C3A225FDDEB001B336F /* RunwayString.swift in Sources */,
+				4A097C36225FDD02001B336F /* SeasonDecodeable.swift in Sources */,
+				4A097C27225F9F37001B336F /* CollectionsViewController.swift in Sources */,
+				4AAD2EFD225F9A8E00E486E7 /* Vogue_Runway.xcdatamodeld in Sources */,
+				4A097C2F225FDC51001B336F /* BrandDecodeable.swift in Sources */,
+				4AAD2EF8225F9A8E00E486E7 /* AppDelegate.swift in Sources */,
+				4A097C3C225FF49E001B336F /* RequestsDecodeable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4AAD2F00225F9A9000E486E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AAD2F01225F9A9000E486E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AAD2F05225F9A9000E486E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AAD2F06225F9A9000E486E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4AAD2F08225F9A9000E486E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Vogue Runway/Vogue_Runway.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Vogue Runway/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "city.harry.Vogue-Runway";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4AAD2F09225F9A9000E486E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Vogue Runway/Vogue_Runway.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Vogue Runway/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "city.harry.Vogue-Runway";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AAD2EEF225F9A8E00E486E7 /* Build configuration list for PBXProject "Vogue Runway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AAD2F05225F9A9000E486E7 /* Debug */,
+				4AAD2F06225F9A9000E486E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AAD2F07225F9A9000E486E7 /* Build configuration list for PBXNativeTarget "Vogue Runway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AAD2F08225F9A9000E486E7 /* Debug */,
+				4AAD2F09225F9A9000E486E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4AAD2EFB225F9A8E00E486E7 /* Vogue_Runway.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4AAD2EFC225F9A8E00E486E7 /* Vogue_Runway.xcdatamodel */,
+			);
+			currentVersion = 4AAD2EFC225F9A8E00E486E7 /* Vogue_Runway.xcdatamodel */;
+			path = Vogue_Runway.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4AAD2EEC225F9A8E00E486E7 /* Project object */;
+}
